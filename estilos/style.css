@@ -6,45 +6,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body{
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-}
-
 body{
-    background-image: url('../imagens/back-phone.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right center;
+    background-image: url('../imagens/fundo-madeira.jpg');
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    
+section#redes-sociais{
+    text-align: right;
 }
 
-section#telefone{
-    height: 470px;
-    width: 240px;
-    background:  url('../imagens/Smartphone-Transparent-Background-PNG.png') no-repeat center; 
+section#redes-sociais img{
+    width: 40px;
+    border-radius: 50%;
 
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
 }
 
-iframe#tela{
-    position: relative;
-    top: 55px;
-    left: 11px;
-
-    height: 352px;
-    width: 217px;
-
-    
-}
